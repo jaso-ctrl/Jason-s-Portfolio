@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+.signUp{
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(204, 171, 171);
+}
+.signUp1{
+    /* background-color: aqua; */
+    min-height: 100vh;
+    width: 50%;
+    margin-top: 50px;
+}
+.signUp2{
+    background-image: url(Images/Sky1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 50%;
+}
+.signUp1 h1{    
+    border-left: 5px solid rgb(125, 13, 13);
+    background-color: rgb(51, 28, 28);
+    color: rgb(241, 232, 232);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+.userName{
+    background-color: rgb(243, 214, 214);
+    border: none;
+    border-left: 5px solid rgb(125, 13, 13);
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 20px;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+}
+.signUp1 button{
+    background-color: transparent;
+    border: 1px solid rgb(125, 13, 13);
+    border-radius: 20px;
+    color: rgb(125, 13, 13);
+    cursor: pointer;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-left: 10%;
+    transition: 1s;
+}
+.signUp1 button:hover{
+    background-color: rgb(125, 13, 13);
+    color: white;
+    width: 200px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

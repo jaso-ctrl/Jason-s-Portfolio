@@ -1,0 +1,199 @@
+/* Universal styling */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Section for the home page */
+.homePage{
+    min-height: 100vh;
+    background-color: rgb(123, 85, 85);
+}
+
+/* Navigation bar on the home */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(36, 14, 14);
+    position: fixed;
+    transition: 1s;
+    z-index: 1;
+}
+nav:hover{
+    gap: 70px;
+}
+
+/* List on nav bar on home page */
+nav ol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+/* Links on nav bar on home page */
+nav ol li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    position: relative;
+}
+nav ol li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: white;
+    width: 0;
+    height: 3px;
+    transition: 0.3s;
+}
+/* Hover effect on the links in the nav bar on the home page */
+nav ol li a:hover::after{
+    width: 100%;
+}
+
+/* Three dashes that releases the hidden links */
+span{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Div for hidden links */
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    right: 0;
+    background-color: rgb(66, 39, 39);
+    overflow-x: hidden;
+    transition: 1.5s;
+    padding-top: 60px;
+}
+
+/* Links in the hidden nav bar */
+.sidenav a{
+    margin-left: 20px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.hidLinkHov:hover{
+    background-color: rgb(66, 39, 39);
+    border-left: 10px solid white;
+}
+/* Hover effect on the links in the hidden nav bar */
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+/* The close button on the hidden nav bar */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-align: center;
+}
+.sidenav .closebtn:hover{
+    color: red;
+}
+/* Main div container that holds intro message and animated images on home page */
+.homeDivs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+/* Div for welcome message on home page */
+.welcomeMess{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 60px;
+}
+
+/* Div for animated images on home pages */
+.welcomeImg{
+    animation: myPic 10s infinite;
+    width: 50vh;
+    height: 60vh;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgb(213, 3, 3);
+    background-image: url(Images/DTIphotos.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+
+}
+
+.homeLinks{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+#learnMore{
+    background-color: rgb(66, 39, 39);
+    border: 1px solid rgb(66, 39, 39);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    width: 250px;
+    transition: 1s;
+}
+#learnMore:hover{
+    background-color: transparent;
+    width: 300px;
+}
+
+
+/* Styling for "Sign Up" button */
+#signUp {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    width: 250px;
+    transition: 1s;
+    text-decoration: none;
+}
+
+/* Hover effect for "Sign Up" button */
+#signUp:hover{
+    background: rgb(66, 39, 39);
+    border: 3px solid rgb(66, 39, 39);
+    color: white;
+    width: 300px;
+}
+
+
+
+
+

@@ -1,0 +1,19 @@
+@media screen and (width < 600px) {
+    nav{
+        height: 450px;
+        /* background-color: black; */
+    }
+    nav ol{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        list-style-type: none;
+        line-height: 50px;
+    }
+    
+}
+
+@media screen and (width < 700px) {
+    
+}

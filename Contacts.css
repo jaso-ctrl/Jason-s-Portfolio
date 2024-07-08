@@ -1,0 +1,6 @@
+.contacts{
+    background: radial-gradient(aqua, yellow);
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    border-top: 10px solid white;
+}

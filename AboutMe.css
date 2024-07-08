@@ -1,0 +1,124 @@
+/* Section for the About Us page */
+.aboutPage{
+    min-height: 100vh;
+    border-bottom: 10px solid rgb(122, 35, 35);
+}
+
+/* "About Us heading on About Us page" */
+.aboutPage h1{
+    background-color: rgb(51, 28, 28);
+    border-top: 10px solid rgb(122, 35, 35);
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cv{
+    background-color: rgb(209, 161, 161);
+    display: flex;
+    min-height: 90vh;
+}
+.left{
+    /* color: white; */
+    min-height: 100vh;
+    width: 40%;
+    border-right: 10px solid rgb(122, 35, 35);
+    padding: 10px;
+}
+.left h5{
+    /* text-decoration: underline; */
+    width: 350px;
+    letter-spacing: 2px;
+    border-left: 5px solid rgb(133, 38, 38);
+    background-color: rgb(160, 97, 97);
+    color: rgb(75, 38, 38);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.left p{
+    color: rgb(60, 21, 21);
+    font-size: 30px;
+    text-align: center;
+}
+.left ul{
+    color: rgb(60, 21, 21);
+    font-size: 30px;
+}
+.left #call{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.left #email{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.left #location{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+::marker{
+    color: rgb(187, 119, 119);
+}
+.right{
+    min-height: 100vh;
+    width: 60%;
+    padding: 20px;
+}
+.right h4{
+    text-align: center;
+    border-radius: 30px;
+    color: rgb(60, 21, 21);
+    padding: 15px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.right h5{
+    text-align: center;
+    background-color: rgb(160, 97, 97);
+    border-radius: 30px;
+    color: rgb(75, 38, 38);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px; 
+}
+.right p{
+    color: rgb(60, 21, 21);
+    text-align: justify;
+    border-top: 5px solid rgb(139, 86, 86);
+    border-left: 5px solid rgb(139, 86, 86);
+    font-size: 30px;
+    padding: 20px;
+}
+.right b{
+    color: rgb(60, 21, 21);
+    padding-left: 5px;
+    
+}
+/* .right #span{
+    color: rgb(187, 119, 119);
+    position: absolute;
+    left: 63%;
+} */

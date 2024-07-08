@@ -1,0 +1,10 @@
+@keyframes HomeImages {
+    0% {background-image: url(Images/Sky1.jpg);}
+    20% {background-image: url(Images/Sky2.jpg);}
+    40% {background-image: url(Images/Sky3.jpg);}
+    60% {background-image: url(Images/Sky4.jpg);}
+    80% {background-image: url(Images/Sky5.jpg);}
+    100% {background-image: url(Images/Sky6.jpg);}
+    0% {background-image: url(Images/Sky1.jpg);}
+}
+

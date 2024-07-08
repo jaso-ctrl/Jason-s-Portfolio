@@ -1,0 +1,8 @@
+@keyframes myPic {
+    0% {box-shadow: 0 0 50px rgb(213, 3, 3);}
+    25% {box-shadow: 0 0 50px yellow;}
+    50% {box-shadow: 0 0 50px green;}
+    75% {box-shadow: 0 0 50px blue;}
+    100% {box-shadow: 0 0 50px orange;}
+    
+}

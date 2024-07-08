@@ -1,0 +1,58 @@
+.Gallery{
+    min-height: 100vh;
+    background-color: rgb(203, 185, 185);
+    padding-bottom: 30px;
+}
+.Gallery h1{
+    background-color: rgb(51, 28, 28);
+    border-top: 10px solid rgb(122, 35, 35);
+    border-left: 10px solid rgb(122, 35, 35);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.Gallery h3{
+    color: rgb(122, 35, 35);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.images{
+    background-color: rgb(203, 185, 185);
+    /* border: 3px solid rgb(157, 85, 85); */
+    padding: 45px;
+    width: 80%;
+    align-items: center;
+    justify-content: center; 
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    transition: 1s;
+}
+.images:hover{
+    gap: 30px;
+    animation: GallDiv 1s;
+}
+
+.images img{
+    width: 250px;
+    height: 250px;
+    opacity: 0.5;
+    transition: 1s;
+}
+.images img:hover{
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+
+
+
+
+

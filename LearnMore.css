@@ -1,0 +1,68 @@
+.LearnMore{
+    background-color: rgb(204, 171, 171);
+    display: flex;
+    min-height: 100vh;
+    margin-top: 50px;
+}
+.learnM1{
+    min-height: 100vh;
+    width: 50%;
+}
+.learnM1 h1{
+    margin-top: 70px;
+    border-left: 5px solid rgb(125, 13, 13);
+    background-color: rgb(51, 28, 28);
+    color: rgb(241, 232, 232);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.learnM1 #inp1, #inp2, #inp3{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(243, 214, 214);
+    font-size: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 50px;
+    outline: none;
+    width: 450px;
+    padding: 10px;
+    text-align: center;
+}
+.learnM1 button{
+    background-color: transparent;
+    border: 1px solid rgb(125, 13, 13);
+    border-radius: 20px;
+    color: rgb(125, 13, 13);
+    cursor: pointer;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-left: 10%;
+    transition: 1s;
+}
+.learnM1 button:hover{
+    background-color: rgb(125, 13, 13);
+    color: white;
+    width: 200px;
+    font-size: 25px;
+}
+
+.learnM2{
+    background-image: url(Images/Sky1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    
+    width: 50%;
+}
+
+
+
+
+

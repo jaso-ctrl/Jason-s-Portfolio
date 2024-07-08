@@ -1,0 +1,146 @@
+.Testimonials{
+    /* background-color: rgb(242, 191, 191); */
+    min-height: 100vh;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+.Testimonials header{
+    border: 10px solid rgb(119, 43, 43);
+    background: url(Images/DTIphotos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: contain;
+    min-height: 60vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 300px; */
+}
+
+.Testimonials header h1{
+    color: rgb(51, 28, 28);
+    text-align: center;
+    font-size: 70px;
+    margin-top: 10px;
+}
+
+#Testh1F{
+    position: absolute;
+    left: 450px;
+}
+#Testh1S{
+    position: absolute;
+    right: 350px;
+}
+
+.TMonials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    
+}
+
+#TMdiv1{
+    border: 10px solid rgb(119, 43, 43);
+    border-radius: 30px;
+    background-color: rgb(238, 163, 163);
+    width: 300px;
+    height: 490px;
+    margin-top: 40px;
+    padding: 10px;
+    position: relative;
+    top: -180px;
+}
+
+/* #TMdiv1:hover{
+    
+} */
+
+#TMdiv1 div{
+    background-image: url(Images/Anita\ C2.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    width: 300px;
+    height: 50%;
+}
+
+#TMdiv1 p{
+    height: 50%;
+    overflow: auto;
+    text-align: center;
+}
+
+.TMdiv2{
+    border: 10px solid rgb(119, 43, 43);
+    border-radius: 30px;
+    background-color: rgb(238, 163, 163);
+    width: 300px;
+    height: 490px;
+    margin-top: 40px;
+    padding: 10px;
+    position: relative;
+    top: -100px;
+}
+
+.TMdiv2 div{
+    background-image: url(Images/Jeph\ C2.png );
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    width: 300px;
+    height: 50%;
+}
+
+.TMdiv2 p{
+    height: 50%;
+    overflow: auto;
+    text-align: center;
+}
+
+.TMdiv3{
+    border: 10px solid rgb(119, 43, 43);
+    border-radius: 30px;
+    background-color: rgb(238, 163, 163);
+    width: 300px;
+    height: 490px;
+    margin-top: 40px;
+    padding: 10px;
+    position: relative;
+    top: -180px;
+}
+
+.TMdiv3 div{
+    background-image: url(Images/Habi\ C1.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    width: 300px;
+    height: 50%;
+}
+
+.TMdiv3 p{
+    height: 50%;
+    overflow: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
